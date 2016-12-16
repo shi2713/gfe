@@ -1,0 +1,75 @@
+{
+  "name": "gfe",
+  "description": "国美在线前端开发集成解决方案",
+  "version": "1.1.0",
+  "keywords": [
+    "gfe"
+  ],
+  "homepage": "https://github.com/shi2713/gfe",
+  "author": [
+    {
+      "name": "shixiaoqiang",
+      "email": "shixiaoqiang@yolo24.com"
+    },
+    {
+      "name": "guotingjie",
+      "email": "guotingjie@yolo24.com"
+    },
+    {
+      "name": "wangqing",
+      "email": "wangqing-ds7@yolo24.com"
+    },
+    {
+      "name": "liuzhengwu",
+      "email": "liuzhengwu7@yolo24.com"
+    }
+  ],
+  "license": "MIT",
+  "bin": {
+    "gfe": "bin/gfe"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shi2713/gfe.git"
+  },
+  "bugs": {
+    "url": "http://github.com/shi2713/gfe/issues"
+  },
+  "preferGlobal": true,
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "atropa-jslint": "0.1.2",
+    "babel-core": "^6.3.17",
+    "clean-css": "2.1.8",
+    "colors": "1.0.2",
+    "csslint": "0.10.0",
+    "expect.js": "0.3.1",
+    "freemarker.js": "^1.2.2",
+    "ftp": "0.3.6",
+    "gfe-images": "^1.1.0",
+    "gfe-png-native": "^1.1.0",
+    "gfe-sass": "^1.0.18",
+    "gfe-ws": "^1.0.3",
+    "html-minifier": "0.6.9",
+    "htmllint": "0.0.7",
+    "iconv-lite": "^0.4.10",
+    "inline-source": "^4.2.5",
+    "js-beautify": "1.5.4",
+    "jsmart": "^2.14.0",
+    "less": "2.7.1",
+    "node-watch": "0.3.4",
+    "q": "1.0.1",
+    "requirejs": "^2.2.0",
+    "simple-prompt": "0.2.1",
+    "ssi": "^0.1.5",
+    "svn-spawn": "^0.1.5",
+    "tar": "0.1.19",
+    "uglify-js": "2.4.12",
+    "velocityjs": "0.4.3"
+  }
+}
